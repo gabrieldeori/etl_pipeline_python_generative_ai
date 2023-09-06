@@ -32,7 +32,7 @@ Recebi a tarefa de envolver meus clientes de maneira mais personalizada. O objet
         
 -[x]  Arquivo CSV id clientes
     - Arquivo
-        -[x]  [Arquivo com ids dos clientes](https://www.notion.so/Arquivo-com-ids-dos-clientes-c8399a97039e4897af9feb1adb627a0e?pvs=21)
+        -[x]  [Arquivo com ids dos clientes]()
 -[x]  `pip install python-decouple`
 -[x]  `pip install pandas`
 -[x]  `pip install openai`
@@ -53,9 +53,9 @@ API_URL = config(BANK_API_URL) or config('API_URL')
 
 ### Desenvolvimento
 
--[x]  [1.11.4 Extract (Extração)](https://www.notion.so/1-11-4-Extract-Extra-o-40279b80ba94494f9a7a7c56c3e5b6c0?pvs=21)
--[x]  [1.11.5 Transform (Transformação ou Enriquecimento)](https://www.notion.so/1-11-5-Transform-Transforma-o-ou-Enriquecimento-9584b2829f2942f983c00d093682bd29?pvs=21)
--[x]  [1.11.6 Load (Carregamento)](https://www.notion.so/1-11-6-Load-Carregamento-e10f93ea04da41e788da3cd9d0cdcd22?pvs=21)  venv
+-[x]  [1.11.4 Extract (Extração)]()
+-[x]  [1.11.5 Transform (Transformação ou Enriquecimento)]()
+-[x]  [1.11.6 Load (Carregamento)](v
     
     Crie o ambiente: `python -m venv .venv`
     
@@ -77,7 +77,7 @@ API_URL = config(BANK_API_URL) or config('API_URL')
         
 -[x]  Arquivo CSV id clientes
     - Arquivo
-        -[x]  [Arquivo com ids dos clientes](https://www.notion.so/Arquivo-com-ids-dos-clientes-c8399a97039e4897af9feb1adb627a0e?pvs=21)
+        -[x]  [Arquivo com ids dos clientes]()
 -[x]  `pip install python-decouple`
 -[x]  `pip install pandas`
 -[x]  `pip install openai`
@@ -98,6 +98,6 @@ API_URL = config(BANK_API_URL) or config('API_URL')
 
 ### Desenvolvimento
 
--[x]  [1.11.4 Extract (Extração)](https://www.notion.so/1-11-4-Extract-Extra-o-40279b80ba94494f9a7a7c56c3e5b6c0?pvs=21)
--[x]  [1.11.5 Transform (Transformação ou Enriquecimento)](https://www.notion.so/1-11-5-Transform-Transforma-o-ou-Enriquecimento-9584b2829f2942f983c00d093682bd29?pvs=21)
--[x]  [1.11.6 Load (Carregamento)](https://www.notion.so/1-11-6-Load-Carregamento-e10f93ea04da41e788da3cd9d0cdcd22?pvs=21)
+-[x]  [1.11.4 Extract (Extração)]()
+-[x]  [1.11.5 Transform (Transformação ou Enriquecimento)]()
+-[x]  [1.11.6 Load (Carregamento)]()

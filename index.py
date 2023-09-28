@@ -27,6 +27,14 @@ def generate_ai_marketing_message(customer):
     return completion.choices[0].message.content.strip('\"')
 
 
+def generate_customers_message(customers):
+    customers_message = []
+    for customer in customers:
+        message = generate_ai_marketing_message(customer)
+        customers_message.append(message)
+    return customers_message
+
+
 customers = [
     {
         'nome': 'Gabriel de Oliveira',
@@ -40,15 +48,11 @@ customers = [
     }
 ]
 
-customers_message = []
-
 if api_key:
-    print(f'Sua chave de API é: {api_key}')
     openai.api_key = api_key
 
-    for customer in customers:
-        message = generate_ai_marketing_message(customer)
-        customers_message.append(message)
+    customers_message = generate_customers_message(customers)
+    print(customers_message)
 
 else:
     print('A variável de ambiente API_KEY não está configurada.')

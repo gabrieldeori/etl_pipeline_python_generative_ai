@@ -1,8 +1,16 @@
 import openai
-api_key = config('OPENAI_API_KEY')
 from decouple import config
 
 def generate_ai_marketing_message(customer):
+    api_key = config('OPENAI_API_KEY')
+
+    if api_key:
+        openai.api_key = api_key
+
+    else:
+        print('A variável de ambiente API_KEY não está configurada.')
+        return 0
+
     completion = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
         messages=[

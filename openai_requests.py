@@ -1,5 +1,6 @@
 import openai
 api_key = config('OPENAI_API_KEY')
+from decouple import config
 
 def generate_ai_marketing_message(customer):
     completion = openai.ChatCompletion.create(

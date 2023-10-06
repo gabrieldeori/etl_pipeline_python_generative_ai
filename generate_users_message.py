@@ -1,3 +1,5 @@
+from openai_request import generate_ai_marketing_message
+
 def generate_customers_message(customers):
     customers_message = []
     for customer in customers:

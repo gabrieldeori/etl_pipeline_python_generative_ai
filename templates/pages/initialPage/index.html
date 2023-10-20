@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Persuadio Clientum</title>
+</head>
+<body>
+  <header>
+  </header>
+
+  <main>
+    <h1>Persuadio Clientum</h1>
+    <h2>Seja bem-vindo ao portal de convencimento dos clientes</h2>
+    <div>
+      <form>
+        <h3>Inserir Cliente Manualmente</h3>
+        <fieldset>
+
+          <div id="customerCard">
+            <label for="customerName">
+              Nome: <input placeholder="Ex: João" type="text" name="customer_name" id="customerName" />
+            </label>
+            <label for="customerObjectives">
+              Objetivos do cliente: <input placeholder="Ex: Comprar casa" type="text" name="customer_objectives" id="customerObjectives" />
+            </label>
+            <label for="customerFocus">
+              Focar em: <input placeholder="Ex: Captar cliente" type="text" name="customer_focus" id="customerFocus" />
+            </label>
+          </div>
+
+        </fieldset>
+      </form>
+    </div>
+
+    <button type="button" id="getCustomerMessages" onclick="getExampleCustomersMessages()">Exemplo Customer Messages</button>
+
+    <div>
+      <p id="resultParagraph"></p>
+    </div>
+  </main>
+
+  <footer></footer>
+
+  <script src="{{ url_for('static', filename='js/customerMessageService.js') }}"></script>
+</body>
+</html>

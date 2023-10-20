@@ -10,7 +10,7 @@ def index():
 
 @app.route('/get_clients')
 def get_clients():
-    result = api_generate.startScript()
+    result = api_generate.exampleCustomer()
     return f"<p>{result}</p>"
 
 if __name__ == '__main__':
